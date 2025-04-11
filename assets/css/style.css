@@ -1,0 +1,45 @@
+/* Navigation Styles */
+nav {
+    background-color: #20641b; /* Dark background color for the navbar */
+    padding: 10px 0; /* Add some padding for spacing */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 5px;
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Corrected from 'solid' */
+    padding: 10px 40px;
+    color: #447c30;
+    background-color: #82f767;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block; /* Ensures proper alignment */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    font-size: 16px; /* Optional: Adjust font size for better readability */
+  }
+  
+  nav ul li a:hover {
+    background-color: #3f8c3a; /* Slightly darker background on hover */
+    color: #16f830; /* Change text color to white on hover */
+  }
+  
+  nav ul li a:focus {
+    outline: 3px solid #ffc002; /* Adds an outline for keyboard navigation */
+  }
+  
+  nav ul li a.active {
+    background-color: #37986f; /* Highlight active link */
+    color: rgb(251, 246, 188); /* Active link text color */
+  }
+  

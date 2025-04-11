@@ -3,18 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insert Title Here</title>
-    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+    <title>Rowlet - Pokémon Fan Page</title>
+    <style>
+        body {
+            background-color: #738e10 /* Brownish background */
+            
+            
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Rowlet site for pokenerds</h1>
+        <h1>Rowlet - The Grass Quill Pokémon</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#moves">Moves</a></li>
+                <li><a href="#shiny">Shiny Rowlet</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#languages"> Rowlet in other languages</a></li>
+            </ul>
+
+        </nav>
     </header>
-    <main>
-        <p>Insert Introduction Here</p>
-    </main>
+
+    <section id="intro">
+        <h2>Introduction</h2>
+        <p>Rowlet is a dual-type Grass/Flying Pokémon introduced in Generation VII. It is the starter Pokémon of the Alola region and evolves into Dartrix and eventually Decidueye. Rowlet has a round, owl-like appearance with a leaf bowtie, making it one of the most adorable Pokémon in the series!</p>
+        <img src="https://archives.bulbagarden.net/media/upload/thumb/3/3b/Rowlet_SM_concept_art.jpg/250px-Rowlet_SM_concept_art.jpg" alt="Rowlet" id="rowlet-img">
+    </section>
+
+    <section id="stats">
+        <h2>Rowlet's Stats</h2>
+        <table>
+            <tr>
+                <th>Stat</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>HP</td>
+                <td>68</td>
+            </tr>
+            <tr>
+                <td>Attack</td>
+                <td>55</td>
+            </tr>
+            <tr>
+                <td>Defense</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Speed</td>
+                <td>42</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="moves">
+        <h2>Rowlet's Moves</h2>
+        <ul>
+            <li>Leafage</li>
+            <li>Peck</li>
+            <li>Razor Leaf</li>
+            <li>Brave Bird</li>
+            <li>Feather dance</li>
+            <li> Pluck </li>
+            <li> Astonish </li>
+        </ul>
+    </section>
+    <header>
+        <h1>Shiny Rowlet - The Unique Grass Quill Pokémon</h1>
+    </header>
+
+    <section id="shiny">
+        <p>Shiny Rowlet is a rare alternate color variant of the adorable Grass/Flying-type Pokémon Rowlet. Unlike the regular Rowlet, Shiny Rowlet features a striking color palette, with its feathers changing from the typical green and brown to a much lighter, almost golden shade, making it a fan-favorite for collectors and enthusiasts. The Shiny form of Rowlet is sought after for its rarity, as it has a very low chance of appearing in the wild or being bred in Pokémon games. Despite this color variation, Shiny Rowlet retains all the charm and characteristics of its original form. It still possesses its signature leaf bowtie, round owl-like eyes, and the calm demeanor that makes Rowlet one of the most beloved starter Pokémon from the Alola region. If you are lucky enough to encounter one, Shiny Rowlet is a truly beautiful and unique addition to any Pokémon team!</p>
+        <img src="https://www.shinyhunters.com/images/shiny/722.gif" " alt="Shiny Rowlet" id="rowlet-img">
+    <section id="gallery">
+        <h2>Rowlet Image Gallery</h2>
+        <div class="gallery">
+            <img src="https://media.tenor.com/RKuZJR7oQlQAAAAM/rowlet-pokemon.gif" alt="Rowlet 1">
+            <img src="data:image/jpeg;base64,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" alt="Rowlet 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD1vvictso0P1AZUeOdfzLrBbiS1uaEg3rCojOnKpVXL7ZlJn3uJ3pTAEJP_MtP9wvo8U&usqp=CAU" alt="Rowlet 3">
+        </div>
+    </section>
+
+    <section id="languages"></section>
+    <h2> Rowlet in other languages </h2>
+</u1> 
+<li> English: Rowlet, the grass quill pokémon</li>
+<li> Japanese: モクロー, くさばねポケモン</li>
+<li> German: Bauz, Laubflügel-Pokémon </li>
+<li> French: Brindibou, Pokémon Plumefeuille</li>
+<li> Italian: Rowlet, Pokémon Aliderba</li>
+<li> Spanish: Rowlet, Pokémon Pluma Hoja</li>
+<li> Korean: 나몰빼미, 풀깃포켓몬</li>
+<li> Chinese (Simplified): 木木枭, 草羽宝可梦</li>
+<li> Chinese (Traditional): 木木梟, 草羽寶可夢</li>
+
+</ul>
     <footer>
-        <p>Start Footer Here</p>
+        <p>&copy; 2025 Pokémon Fans. All rights reserved.</p>
     </footer>
+    
+
+    <script src="script.js"></script>
 </body>
 </html>
